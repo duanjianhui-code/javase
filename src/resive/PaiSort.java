@@ -35,7 +35,7 @@ public class PaiSort {
         }
         return arr;
     }
-    //冒泡排序
+    //冒泡排序，两个相邻的元素进行比较
     public static int[] maopaiSort(int[] arr){
         int temp=0;
         for (int i=0;i<arr.length-1;i++){
